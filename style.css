@@ -1,0 +1,79 @@
+#game {
+    width: 500px;
+    height: 200px;
+    border: 1px solid rgb(223, 165, 165);
+    background-image: url('https://mentalmars.b-cdn.net/wp-content/uploads/2014/07/Donkey_Kong_Wallpaper1_-_preview.jpg');
+    background-size: contain;
+    
+}
+
+#shootingElement {
+    width: 20px;
+    height: 20px;
+    background-color: transparent;
+    position: relative;
+    top: 130px;
+    left: 480px;
+    animation: block 1s infinite linear;
+    background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/3b5e4fb5-afc2-4a06-8a8b-476778b8baae/dcgy30t-1438fadb-74c7-447e-9d2b-6937e57d84f9.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzNiNWU0ZmI1LWFmYzItNGEwNi04YThiLTQ3Njc3OGI4YmFhZVwvZGNneTMwdC0xNDM4ZmFkYi03NGM3LTQ0N2UtOWQyYi02OTM3ZTU3ZDg0ZjkucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.5vI1NNjZJI-UngQE4m0oFyrF3TNfI-hkH6QPpMAIuNs');
+    background-size: contain;
+
+
+}
+
+#donkeykong {
+    width: 80px;
+    height: 50px;
+    background-color: red;
+    position: relative;
+    top: 150px;
+    background-image: url('https://ssb.wiki.gallery/images/thumb/c/c9/Donkey_Kong_SSBU.png/1200px-Donkey_Kong_SSBU.png');
+    background-size:cover;  
+    background-color:transparent;
+  
+}
+.animate {
+    animation: jump 500ms;
+}
+
+@keyframes jump {
+    0% {top:150px;}
+    30% {top:50px;}
+    70% {top:50px;}
+    100% {top:150px;}
+}
+
+@keyframes block {
+    0% {left:480px;}
+    100% {left:-10px;}
+    
+}
+
+body {
+    background-color: black;
+   /* background-image: url('https://media.1815.io/topgear/i/width=976&height=549/2022/02/opener-gta-6-nieuws.jpg');
+    background-size:cover; */
+}
+
+h1 {
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+#score {
+    color: white;
+}
+
+#btnShoot {
+    width: 120px;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
