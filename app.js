@@ -1,6 +1,6 @@
 //Declare variables
 let score = 0;
-let money = 0;
+let level = 0;
 let donkeyKong = document.getElementById("donkeykong");
 let shootingelement = document.getElementById("shootingElement");
 function MakeDonkeyKongJump() {
@@ -19,17 +19,18 @@ let checkDead = setInterval(function() {
   if(shootingElementLeft< 50 && shootingElementLeft>0 && donkeyKongTop >140 ) {
         shootingElement.style.animation = "none";
         shootingElement.style.display = "none";
-        alert('You lose');
-        location.reload();
+       // alert('You lose');
+     //   location.reload();
     }
 
 },10);
 
 
-
-function Test() {
-    alert('Test');
+function ChangeBackground() {
+  document.getElementById("myImg").src = "hackanm.gif";
 }
+
+
 function jumpedSuccesfullyOverEnemy() {
     score = score + 1;
 }

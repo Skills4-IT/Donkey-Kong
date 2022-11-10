@@ -1,3 +1,9 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
 #game {
     width: 500px;
     height: 200px;
@@ -5,6 +11,12 @@
     background-image: url('https://mentalmars.b-cdn.net/wp-content/uploads/2014/07/Donkey_Kong_Wallpaper1_-_preview.jpg');
     background-size: contain;
     
+}
+
+#hero {
+    background-color: aqua;
+    width: 500px;
+    height: 200px;
 }
 
 #shootingElement {
@@ -38,9 +50,9 @@
 
 @keyframes jump {
     0% {top:150px;}
-    30% {top:50px;}
-    70% {top:50px;}
-    100% {top:150px;}
+    30% {top:50px; left:20px}
+    70% {top:50px; left:20px}
+    100% {top:150px;left:0px}
 }
 
 @keyframes block {
@@ -50,17 +62,17 @@
 }
 
 body {
-    background-color: black;
+    background-color: #272b30;
    /* background-image: url('https://media.1815.io/topgear/i/width=976&height=549/2022/02/opener-gta-6-nieuws.jpg');
     background-size:cover; */
 }
 
 h1 {
-    color: white;
+    color: #cb3312;
 }
 
 p {
-    color: white;
+    color: #f3bf25;
 }
 
 #score {
@@ -71,9 +83,5 @@ p {
     width: 120px;
 }
 
-* {
-    padding: 0;
-    margin: 0;
 
-}
 
