@@ -24,10 +24,23 @@
     position: relative;
     top: 130px;
     left: 480px;
-    animation: block 1s infinite linear;
+    animation: fire 1s infinite linear;
     background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/3b5e4fb5-afc2-4a06-8a8b-476778b8baae/dcgy30t-1438fadb-74c7-447e-9d2b-6937e57d84f9.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzNiNWU0ZmI1LWFmYzItNGEwNi04YThiLTQ3Njc3OGI4YmFhZVwvZGNneTMwdC0xNDM4ZmFkYi03NGM3LTQ0N2UtOWQyYi02OTM3ZTU3ZDg0ZjkucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.5vI1NNjZJI-UngQE4m0oFyrF3TNfI-hkH6QPpMAIuNs');
     background-size: contain;
 }
+
+#shootingElement2 {
+    width: 20px;
+    height: 20px;
+    background-color: transparent;
+    position: relative;
+    top: 100px;
+    left: 10px;
+    animation: shootme 1s infinite linear;
+    background-image: url('https://www.freepnglogos.com/uploads/banana-png/banana-school-council-drapers-mills-primary-academy-little-0.png');
+    background-size: contain; 
+}
+
 
 #donkeykong {
     width: 80px;
@@ -51,11 +64,19 @@
     100% {top:150px;left:0px}
 }
 
-@keyframes block {
+@keyframes fire {
     0% {left:480px;}
     100% {left:-10px;}
     
 }
+
+@keyframes shootme {
+    0% {left:-10px;}
+    100% {left:480px;}
+    
+}
+
+
 
 body {
     background-color: #272b30;
