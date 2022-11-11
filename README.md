@@ -1,3 +1,2 @@
 # Donkey Kong
- 
-[Link text Here](https://link-url-here.org)
+[Play the game here](https://skills4-it.github.io/Donkey-Kong/)
